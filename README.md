@@ -65,7 +65,3 @@ src/main/java/com/coding/gym/
 
 ---
 
-
-**需要我幫你把下一題 `q1114. Print in Order` 的檔案路徑先規劃出來嗎？** 既然你有 `leetcode` 和 `problems_xxx` 的層級，這題的 Package 宣告會稍微長一點，我可以幫你寫好對應的 `package` 語句。
-
-```
