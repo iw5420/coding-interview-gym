@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc49a1fb-ed5b-410f-92c6-5bf056597c03" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="21" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="38bRLIRfoTFhXPirva890FgvZt5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.SolutionTest.executor": "Run",
+    "JUnit.SolutionTest.should_return_empty_array_when_no_solution.executor": "Run",
+    "JUnit.SolutionTest.should_return_indices_when_two_sum_exists.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-interview-gym" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.should_return_empty_array_when_no_solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-interview-gym" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.SolutionTest" />
+      <option name="METHOD_NAME" value="should_return_empty_array_when_no_solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.should_return_indices_when_two_sum_exists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-interview-gym" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.SolutionTest" />
+      <option name="METHOD_NAME" value="should_return_indices_when_two_sum_exists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.should_return_empty_array_when_no_solution" />
+        <item itemvalue="JUnit.SolutionTest.should_return_indices_when_two_sum_exists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc49a1fb-ed5b-410f-92c6-5bf056597c03" name="Changes" comment="" />
+      <created>1769066231089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769066231089</updated>
+      <workItem from="1769066232059" duration="5826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
