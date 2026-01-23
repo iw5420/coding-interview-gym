@@ -11,6 +11,11 @@ A dedicated Java repository for mastering high-performance algorithms and system
 - **測試驅動 (TDD)**: 每一道題皆具備完整的 JUnit 5 與 AssertJ 單元測試。
 - **效能極限 (Efficiency)**: 嚴格執行時間與空間複雜度分析，追求最優解。
 - **架構組織 (Organization)**: 採用嚴謹的 Package 層級，模擬真實大型企業級專案。
+- 
+- **Code Quality: Adhere to Clean Code principles, strictly eliminating redundant logic and spaghetti code.
+- **Test-Driven Development (TDD): Every implementation is backed by a comprehensive suite of JUnit 5 and AssertJ unit tests.
+- **Performance Optimization: Rigorous Time and Space Complexity analysis is conducted for every solution to ensure peak efficiency and the pursuit of the optimal solution.
+- **Architectural Organization: Employ a disciplined Package hierarchy to simulate the structure and scalability of authentic, large-scale enterprise projects.
 
 ---
 
