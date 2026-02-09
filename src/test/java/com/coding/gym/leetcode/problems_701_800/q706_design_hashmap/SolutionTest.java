@@ -19,5 +19,11 @@ class SolutionTest {
 
         map.remove(2);
         assertEquals(-1, map.get(2));
+
+        map.put(2, 1); //測試dummy的寫法
+        assertEquals(1, map.get(2));
+
+        map.remove2(2);
+        assertEquals(-1, map.get(2));
     }
 }
