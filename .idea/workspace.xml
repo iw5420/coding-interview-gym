@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc49a1fb-ed5b-410f-92c6-5bf056597c03" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_701_800/q706_design_hashmap/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding/gym/leetcode/problems_701_800/q706_design_hashmap/SolutionTest.java" afterDir="false" />
+    <list default="true" id="cc49a1fb-ed5b-410f-92c6-5bf056597c03" name="Changes" comment="hashset finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/MyHashMap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_001_100/q21_merge_two_sorted_lists/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding/gym/leetcode/common/MyHashMap2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding/gym/leetcode/problems_001_100/q21_merge_two_sorted_lists/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/MyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_701_800/q706_design_hashmap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_701_800/q706_design_hashmap/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +29,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iw5420&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/iw5420/coding-interview-gym.git&quot;,
+    &quot;accountId&quot;: &quot;0b283473-4567-414b-8593-552eb04e2cf0&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -35,9 +52,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="38bRLIRfoTFhXPirva890FgvZt5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,13 +62,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MyHashMap2Test.executor": "Debug",
+    "JUnit.SoluctionTest.testHashSetWithCommonMap.executor": "Run",
     "JUnit.SolutionTest.executor": "Run",
     "JUnit.SolutionTest.should_return_empty_array_when_no_solution.executor": "Run",
     "JUnit.SolutionTest.should_return_indices_when_two_sum_exists.executor": "Run",
+    "JUnit.SolutionTest.testBothEmpty.executor": "Run",
+    "JUnit.SolutionTest.testHashMapBasicOps.executor": "Run",
+    "JUnit.SolutionTest.testMergeTwoLists.executor": "Run",
+    "JUnit.SolutionTest.testOneEmpty.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,49 +94,79 @@
       <recent name="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SolutionTest.testOneEmpty">
+    <configuration name="MyHashMap2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.common.MyHashMap2Test" />
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.should_return_empty_array_when_no_solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SoluctionTest.testHashSetWithCommonMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_701_800.q705_design_hashset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.SolutionTest" />
-      <option name="METHOD_NAME" value="should_return_empty_array_when_no_solution" />
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_701_800.q705_design_hashset" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_701_800.q705_design_hashset.SoluctionTest" />
+      <option name="METHOD_NAME" value="testHashSetWithCommonMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.should_return_indices_when_two_sum_exists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testBothEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q1_two_sum.SolutionTest" />
-      <option name="METHOD_NAME" value="should_return_indices_when_two_sum_exists" />
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.SolutionTest" />
+      <option name="METHOD_NAME" value="testBothEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testMergeTwoLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-interview-gym" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.SolutionTest" />
+      <option name="METHOD_NAME" value="testMergeTwoLists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testOneEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-interview-gym" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.SolutionTest" />
+      <option name="METHOD_NAME" value="testOneEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,9 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.should_return_empty_array_when_no_solution" />
-        <item itemvalue="JUnit.SolutionTest.should_return_indices_when_two_sum_exists" />
+        <item itemvalue="JUnit.SolutionTest.testOneEmpty" />
+        <item itemvalue="JUnit.SolutionTest.testBothEmpty" />
+        <item itemvalue="JUnit.SolutionTest.testMergeTwoLists" />
+        <item itemvalue="Application.MyHashMap2Test" />
+        <item itemvalue="JUnit.SoluctionTest.testHashSetWithCommonMap" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769066231089</updated>
-      <workItem from="1769066232059" duration="10216000" />
+      <workItem from="1769066232059" duration="10644000" />
+      <workItem from="1769490714696" duration="9501000" />
+      <workItem from="1770099251218" duration="8744000" />
+      <workItem from="1771828733165" duration="2499000" />
+      <workItem from="1772766432581" duration="16273000" />
+      <workItem from="1773284036843" duration="10729000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -151,7 +212,31 @@
       <option name="project" value="LOCAL" />
       <updated>1769072225750</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hashmap begin">
+      <option name="closed" value="true" />
+      <created>1769163574065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769163574065</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hashmap finished">
+      <option name="closed" value="true" />
+      <created>1770634132324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770634132324</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hashset finished">
+      <option name="closed" value="true" />
+      <created>1772786455805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772786455805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +255,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="hashmap begin" />
+    <MESSAGE value="hashmap finished" />
+    <MESSAGE value="hashset finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashset finished" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/MyHashMap2.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

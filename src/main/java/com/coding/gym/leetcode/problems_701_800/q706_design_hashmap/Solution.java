@@ -3,7 +3,7 @@ package com.coding.gym.leetcode.problems_701_800.q706_design_hashmap;
 public class Solution {
     // LeetCode 要求的類別名稱
     class MyHashMap {
-        private class Node {
+        public class Node {
             int key, value;
             Node next;
             Node(int key, int value) {
@@ -13,10 +13,11 @@ public class Solution {
         }
 
         private final int SIZE = 1000;
-        private Node[] buckets;
 
-        public MyHashMap() {
-            buckets = new Node[SIZE];
+        private final Node[]buckets = new Node[SIZE];
+
+        private int getHash(int key){
+            return (key & 0x7fffffff) % SIZE;
         }
 
         public void put(int key, int value) {
@@ -86,10 +87,6 @@ public class Solution {
                 }
                 prev = prev.next;
             }
-        }
-
-        private int getHash(int key) {
-            return Math.abs(key) % SIZE;
         }
     }
 }
