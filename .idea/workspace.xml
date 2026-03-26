@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc49a1fb-ed5b-410f-92c6-5bf056597c03" name="Changes" comment="hashset finished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/MyHashMap2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_001_100/q21_merge_two_sorted_lists/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding/gym/leetcode/common/MyHashMap2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding/gym/leetcode/problems_001_100/q21_merge_two_sorted_lists/SolutionTest.java" afterDir="false" />
+    <list default="true" id="cc49a1fb-ed5b-410f-92c6-5bf056597c03" name="Changes" comment="mergeTwoLists finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_201_300/q217_contains_duplicate/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding/gym/leetcode/problems_201_300/q217_contains_duplicate/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/common/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_701_800/q706_design_hashmap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_701_800/q706_design_hashmap/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,113 +55,116 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MyHashMap2Test.executor": "Debug",
-    "JUnit.SoluctionTest.testHashSetWithCommonMap.executor": "Run",
-    "JUnit.SolutionTest.executor": "Run",
-    "JUnit.SolutionTest.should_return_empty_array_when_no_solution.executor": "Run",
-    "JUnit.SolutionTest.should_return_indices_when_two_sum_exists.executor": "Run",
-    "JUnit.SolutionTest.testBothEmpty.executor": "Run",
-    "JUnit.SolutionTest.testHashMapBasicOps.executor": "Run",
-    "JUnit.SolutionTest.testMergeTwoLists.executor": "Run",
-    "JUnit.SolutionTest.testOneEmpty.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MyHashMap2Test.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SoluctionTest.testHashSetWithCommonMap.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.should_return_empty_array_when_no_solution.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.should_return_indices_when_two_sum_exists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testBothEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testHashMapBasicOps.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMergeTwoLists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testOneEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.testOneEmpty">
-    <configuration name="MyHashMap2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.common.MyHashMap2Test" />
+  <component name="RunManager" selected="JUnit.SolutionTest.testSingleElement">
+    <configuration name="SolutionTest.testEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.common.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoluctionTest.testHashSetWithCommonMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding-interview-gym" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_701_800.q705_design_hashset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_701_800.q705_design_hashset" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_701_800.q705_design_hashset.SoluctionTest" />
-      <option name="METHOD_NAME" value="testHashSetWithCommonMap" />
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.SolutionTest" />
+      <option name="METHOD_NAME" value="testEmptyArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testBothEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testHasDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.SolutionTest" />
-      <option name="METHOD_NAME" value="testBothEmpty" />
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.SolutionTest" />
+      <option name="METHOD_NAME" value="testHasDuplicate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testMergeTwoLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testMultipleDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.SolutionTest" />
-      <option name="METHOD_NAME" value="testMergeTwoLists" />
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.SolutionTest" />
+      <option name="METHOD_NAME" value="testMultipleDuplicates" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testOneEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testNoDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_001_100.q21_merge_two_sorted_lists.SolutionTest" />
-      <option name="METHOD_NAME" value="testOneEmpty" />
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.SolutionTest" />
+      <option name="METHOD_NAME" value="testNoDuplicate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testSingleElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-interview-gym" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q217_contains_duplicate.SolutionTest" />
+      <option name="METHOD_NAME" value="testSingleElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.testOneEmpty" />
-        <item itemvalue="JUnit.SolutionTest.testBothEmpty" />
-        <item itemvalue="JUnit.SolutionTest.testMergeTwoLists" />
-        <item itemvalue="Application.MyHashMap2Test" />
-        <item itemvalue="JUnit.SoluctionTest.testHashSetWithCommonMap" />
+        <item itemvalue="JUnit.SolutionTest.testSingleElement" />
+        <item itemvalue="JUnit.SolutionTest.testEmptyArray" />
+        <item itemvalue="JUnit.SolutionTest.testMultipleDuplicates" />
+        <item itemvalue="JUnit.SolutionTest.testNoDuplicate" />
+        <item itemvalue="JUnit.SolutionTest.testHasDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +200,8 @@
       <workItem from="1770099251218" duration="8744000" />
       <workItem from="1771828733165" duration="2499000" />
       <workItem from="1772766432581" duration="16273000" />
-      <workItem from="1773284036843" duration="10729000" />
+      <workItem from="1773284036843" duration="12430000" />
+      <workItem from="1774408328660" duration="4555000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -236,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772786455805</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mergeTwoLists finished">
+      <option name="closed" value="true" />
+      <created>1773743778477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773743778477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +265,8 @@
     <MESSAGE value="hashmap begin" />
     <MESSAGE value="hashmap finished" />
     <MESSAGE value="hashset finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashset finished" />
+    <MESSAGE value="mergeTwoLists finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="mergeTwoLists finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
