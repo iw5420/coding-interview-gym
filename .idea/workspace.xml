@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc49a1fb-ed5b-410f-92c6-5bf056597c03" name="Changes" comment="217 finished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_201_300/q242_valid_anagram/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding/gym/leetcode/problems_201_300/q242_valid_anagram/SolutionTest.java" afterDir="false" />
+    <list default="true" id="cc49a1fb-ed5b-410f-92c6-5bf056597c03" name="Changes" comment="242 finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/gym/leetcode/problems_101_200/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding/gym/leetcode/problems_101_200/q121_best_time_to_buy_and_sell_stock/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,14 +62,24 @@
     "JUnit.SolutionTest.executor": "Run",
     "JUnit.SolutionTest.should_return_empty_array_when_no_solution.executor": "Run",
     "JUnit.SolutionTest.should_return_indices_when_two_sum_exists.executor": "Run",
+    "JUnit.SolutionTest.testBasicAnagram.executor": "Run",
     "JUnit.SolutionTest.testBothEmpty.executor": "Run",
+    "JUnit.SolutionTest.testDifferentLength.executor": "Run",
     "JUnit.SolutionTest.testEmptyArray.executor": "Run",
+    "JUnit.SolutionTest.testEmptyStrings.executor": "Run",
     "JUnit.SolutionTest.testHasDuplicate.executor": "Run",
     "JUnit.SolutionTest.testHashMapBasicOps.executor": "Run",
+    "JUnit.SolutionTest.testLongAnagram.executor": "Run",
+    "JUnit.SolutionTest.testMaxProfit_EdgeCase_Null.executor": "Run",
+    "JUnit.SolutionTest.testMaxProfit_EdgeCase_SingleDay.executor": "Run",
+    "JUnit.SolutionTest.testMaxProfit_NormalCase.executor": "Run",
+    "JUnit.SolutionTest.testMaxProfit_SmallBounce.executor": "Run",
     "JUnit.SolutionTest.testMergeTwoLists.executor": "Run",
     "JUnit.SolutionTest.testMultipleDuplicates.executor": "Run",
     "JUnit.SolutionTest.testNoDuplicate.executor": "Run",
+    "JUnit.SolutionTest.testNotAnagram.executor": "Run",
     "JUnit.SolutionTest.testOneEmpty.executor": "Run",
+    "JUnit.SolutionTest.testSameCharactersDifferentCounts.executor": "Run",
     "JUnit.SolutionTest.testSingleElement.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -77,6 +87,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,39 +105,7 @@
       <recent name="com.coding.gym.leetcode.problems_001_100.q1_two_sum" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.testLongAnagram">
-    <configuration name="SolutionTest.testDifferentLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding-interview-gym" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram.SolutionTest" />
-      <option name="METHOD_NAME" value="testDifferentLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.testEmptyStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding-interview-gym" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram.SolutionTest" />
-      <option name="METHOD_NAME" value="testEmptyStrings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolutionTest.testMaxProfit_SmallBounce">
     <configuration name="SolutionTest.testLongAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
@@ -143,33 +122,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testNotAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testMaxProfit_EdgeCase_Null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram.SolutionTest" />
-      <option name="METHOD_NAME" value="testNotAnagram" />
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock.SolutionTest" />
+      <option name="METHOD_NAME" value="testMaxProfit_EdgeCase_Null" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testSameCharactersDifferentCounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testMaxProfit_EdgeCase_SingleDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding-interview-gym" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram.*" />
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_201_300.q242_valid_anagram.SolutionTest" />
-      <option name="METHOD_NAME" value="testSameCharactersDifferentCounts" />
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock.SolutionTest" />
+      <option name="METHOD_NAME" value="testMaxProfit_EdgeCase_SingleDay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testMaxProfit_NormalCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-interview-gym" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock.SolutionTest" />
+      <option name="METHOD_NAME" value="testMaxProfit_NormalCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testMaxProfit_SmallBounce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-interview-gym" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.gym.leetcode.problems_101_200.q121_best_time_to_buy_and_sell_stock.SolutionTest" />
+      <option name="METHOD_NAME" value="testMaxProfit_SmallBounce" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.testMaxProfit_SmallBounce" />
+        <item itemvalue="JUnit.SolutionTest.testMaxProfit_EdgeCase_SingleDay" />
+        <item itemvalue="JUnit.SolutionTest.testMaxProfit_EdgeCase_Null" />
+        <item itemvalue="JUnit.SolutionTest.testMaxProfit_NormalCase" />
         <item itemvalue="JUnit.SolutionTest.testLongAnagram" />
-        <item itemvalue="JUnit.SolutionTest.testSameCharactersDifferentCounts" />
-        <item itemvalue="JUnit.SolutionTest.testEmptyStrings" />
-        <item itemvalue="JUnit.SolutionTest.testDifferentLength" />
-        <item itemvalue="JUnit.SolutionTest.testNotAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +217,9 @@
       <workItem from="1771828733165" duration="2499000" />
       <workItem from="1772766432581" duration="16273000" />
       <workItem from="1773284036843" duration="12430000" />
-      <workItem from="1774408328660" duration="8192000" />
+      <workItem from="1774408328660" duration="11320000" />
+      <workItem from="1774935788514" duration="810000" />
+      <workItem from="1775118953369" duration="1728000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -256,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774517720314</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="242 finished">
+      <option name="closed" value="true" />
+      <created>1774603666257</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774603666257</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +301,8 @@
     <MESSAGE value="hashset finished" />
     <MESSAGE value="mergeTwoLists finished" />
     <MESSAGE value="217 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="217 finished" />
+    <MESSAGE value="242 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="242 finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
